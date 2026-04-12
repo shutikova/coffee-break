@@ -2,12 +2,12 @@ package com.coffee_break.coffee_break_backend.data.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor
+@RequiredArgsConstructor
 public class Coffee implements EntityWithId {
 
     @Id

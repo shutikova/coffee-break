@@ -3,12 +3,12 @@ package com.coffee_break.coffee_break_backend.data.model;
 import com.coffee_break.coffee_break_backend.data.model.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor
+@RequiredArgsConstructor
 public class AppUser implements EntityWithId{
 
     @Id
