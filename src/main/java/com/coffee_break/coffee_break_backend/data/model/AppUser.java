@@ -25,4 +25,5 @@ public class AppUser implements EntityWithId{
     @NonNull
     private String password;
 
+    public AppUser() {}
 }

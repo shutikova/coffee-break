@@ -21,4 +21,5 @@ public class Coffee implements EntityWithId {
     @NonNull
     private String currency;
 
+    public Coffee() {}
 }

@@ -23,4 +23,5 @@ public class Cafe implements EntityWithId {
     @NonNull
     private String address;
 
+    public Cafe() {}
 }
