@@ -24,11 +24,11 @@ public class DataInitializer {
             if (userRepo.count() > 0) return;
 
             // ===== USERS (IDs 1–5) =====
-            userRepo.save(new AppUser(UserRole.CUSTOMER, "Alice Customer", "alice", "pass"));
-            userRepo.save(new AppUser(UserRole.CUSTOMER, "Bob Customer", "bob", "pass"));
-            userRepo.save(new AppUser(UserRole.CAFE_EMPLOYEE, "Charlie Employee", "charlie", "pass"));
-            userRepo.save(new AppUser(UserRole.CAFE_EMPLOYEE, "Diana Employee", "diana", "pass"));
-            userRepo.save(new AppUser(UserRole.CUSTOMER, "Eve Customer", "eve", "pass"));
+            userRepo.save(new AppUser(UserRole.CUSTOMER, "Alice Customer", "alice@gmailx.com", "pass"));
+            userRepo.save(new AppUser(UserRole.CUSTOMER, "Bob Customer", "bob@gmailx.com", "pass"));
+            userRepo.save(new AppUser(UserRole.CAFE_EMPLOYEE, "Charlie Employee", "charlie@gmailx.com", "pass"));
+            userRepo.save(new AppUser(UserRole.CAFE_EMPLOYEE, "Diana Employee", "diana@gmailx.com", "pass"));
+            userRepo.save(new AppUser(UserRole.CUSTOMER, "Eve Customer", "eve@gmailx.com", "pass"));
 
             // ===== CAFES =====
             cafeRepo.save(new Cafe("Kavárna PEF", "Jen vyběhnout do patra!", "V Patře 123"));
