@@ -21,7 +21,7 @@ public class AppUser implements EntityWithId{
     @NonNull
     private String realName;
     @NonNull
-    private String email;
+    private String userName;
     @NonNull
     private String password;
 
